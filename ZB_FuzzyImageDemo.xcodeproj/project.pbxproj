@@ -15,6 +15,10 @@
 		EAA40A63211EB752005BA509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA40A62211EB752005BA509 /* main.m */; };
 		EAA40A6D211EB752005BA509 /* ZB_FuzzyImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA40A6C211EB752005BA509 /* ZB_FuzzyImageDemoTests.m */; };
 		EAA40A78211EB752005BA509 /* ZB_FuzzyImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA40A77211EB752005BA509 /* ZB_FuzzyImageDemoUITests.m */; };
+		EAA40A87211EB784005BA509 /* ZBFuzzyImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA40A86211EB784005BA509 /* ZBFuzzyImageViewController.m */; };
+		EAA40A8A211EB821005BA509 /* ZBFuzzyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA40A89211EB821005BA509 /* ZBFuzzyImageView.m */; };
+		EAA40A8D211EB971005BA509 /* ZBFuzzyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA40A8C211EB971005BA509 /* ZBFuzzyFooterView.m */; };
+		EAA40A8F211EBD51005BA509 /* textImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA40A8E211EBD51005BA509 /* textImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		EAA40A73211EB752005BA509 /* ZB_FuzzyImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZB_FuzzyImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA40A77211EB752005BA509 /* ZB_FuzzyImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZB_FuzzyImageDemoUITests.m; sourceTree = "<group>"; };
 		EAA40A79211EB752005BA509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA40A85211EB784005BA509 /* ZBFuzzyImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBFuzzyImageViewController.h; sourceTree = "<group>"; };
+		EAA40A86211EB784005BA509 /* ZBFuzzyImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBFuzzyImageViewController.m; sourceTree = "<group>"; };
+		EAA40A88211EB821005BA509 /* ZBFuzzyImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBFuzzyImageView.h; sourceTree = "<group>"; };
+		EAA40A89211EB821005BA509 /* ZBFuzzyImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBFuzzyImageView.m; sourceTree = "<group>"; };
+		EAA40A8B211EB971005BA509 /* ZBFuzzyFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBFuzzyFooterView.h; sourceTree = "<group>"; };
+		EAA40A8C211EB971005BA509 /* ZBFuzzyFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBFuzzyFooterView.m; sourceTree = "<group>"; };
+		EAA40A8E211EBD51005BA509 /* textImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +112,15 @@
 		EAA40A52211EB752005BA509 /* ZB_FuzzyImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EAA40A8E211EBD51005BA509 /* textImage.jpg */,
 				EAA40A53211EB752005BA509 /* AppDelegate.h */,
 				EAA40A54211EB752005BA509 /* AppDelegate.m */,
+				EAA40A85211EB784005BA509 /* ZBFuzzyImageViewController.h */,
+				EAA40A86211EB784005BA509 /* ZBFuzzyImageViewController.m */,
+				EAA40A88211EB821005BA509 /* ZBFuzzyImageView.h */,
+				EAA40A89211EB821005BA509 /* ZBFuzzyImageView.m */,
+				EAA40A8B211EB971005BA509 /* ZBFuzzyFooterView.h */,
+				EAA40A8C211EB971005BA509 /* ZBFuzzyFooterView.m */,
 				EAA40A56211EB752005BA509 /* ViewController.h */,
 				EAA40A57211EB752005BA509 /* ViewController.m */,
 				EAA40A59211EB752005BA509 /* Main.storyboard */,
@@ -238,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA40A8F211EBD51005BA509 /* textImage.jpg in Resources */,
 				EAA40A60211EB752005BA509 /* LaunchScreen.storyboard in Resources */,
 				EAA40A5D211EB752005BA509 /* Assets.xcassets in Resources */,
 				EAA40A5B211EB752005BA509 /* Main.storyboard in Resources */,
@@ -266,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA40A58211EB752005BA509 /* ViewController.m in Sources */,
+				EAA40A8A211EB821005BA509 /* ZBFuzzyImageView.m in Sources */,
+				EAA40A8D211EB971005BA509 /* ZBFuzzyFooterView.m in Sources */,
+				EAA40A87211EB784005BA509 /* ZBFuzzyImageViewController.m in Sources */,
 				EAA40A63211EB752005BA509 /* main.m in Sources */,
 				EAA40A55211EB752005BA509 /* AppDelegate.m in Sources */,
 			);
@@ -431,7 +453,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89TQ4R7V2H;
 				INFOPLIST_FILE = ZB_FuzzyImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fooww.ZB-FuzzyImageDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +468,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89TQ4R7V2H;
 				INFOPLIST_FILE = ZB_FuzzyImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fooww.ZB-FuzzyImageDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
