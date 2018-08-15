@@ -38,6 +38,7 @@
     _fuzzyRepealButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _fuzzyRepealButton.frame = CGRectMake(ScreenWidth - 60, 11, 40, 40);
     [_fuzzyRepealButton setImage:[UIImage imageNamed:@"icon_photo_repealLast_normal"] forState:UIControlStateNormal];
+    [_fuzzyRepealButton setImage:[UIImage imageNamed:@"icon_photo_repealLast_selected"] forState:UIControlStateSelected];
     [_fuzzyRepealButton addTarget:self action:@selector(withdrawButtonAction) forControlEvents:UIControlEventTouchUpInside];
     _fuzzyRepealButton.imageEdgeInsets = UIEdgeInsetsMake(12.5, 23, 12.5, 0);
     [self addSubview:_fuzzyRepealButton];

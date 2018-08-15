@@ -98,7 +98,6 @@
     
     
     //create vImage_Buffer with data from CGImageRef
-    
     CGDataProviderRef inProvider = CGImageGetDataProvider(img);
     CFDataRef inBitmapData = CGDataProviderCopyData(inProvider);
     
@@ -159,7 +158,6 @@
     free(pixelBuffer);
     free(pixelBuffer2);
     CFRelease(inBitmapData);
-    
     CGImageRelease(imageRef);
     
     return returnImage;
