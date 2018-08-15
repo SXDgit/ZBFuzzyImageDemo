@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZBFuzzyImageViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ZBFuzzyImageViewController *rootViewController = [[ZBFuzzyImageViewController alloc]init];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:rootViewController];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
